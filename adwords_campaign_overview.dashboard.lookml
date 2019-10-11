@@ -643,12 +643,11 @@
     width: 6
     height: 2
   filters:
-  # - name: Date
-  #   title: Date
-  #   type: date_filter
-
-  #   model:
-  #   explore:
-  #   field:
-  #   listens_to_filters: []
-  #   allow_multiple_values: true
+    - name: Date
+      title: Date
+      type: date_filter
+#       model:
+#       explore:
+#       field:
+#       listens_to_filters: []
+      allow_multiple_values: true

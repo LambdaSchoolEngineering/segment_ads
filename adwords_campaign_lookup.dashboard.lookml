@@ -687,21 +687,21 @@
     width: 6
     height: 2
   filters:
-  - name: Campaign Name
-    title: Campaign Name
-    type: field_filter
-    default_value:
-    model: ads
-    explore: campaign_performance_reports
-    field: campaigns.name
-    listens_to_filters: []
-    allow_multiple_values: true
-  # - name: Date
-  #   title: Date
-  #   type: date_filter
-  #   default_value: 30 days
-  #   model:
-  #   explore:
-  #   field:
-  #   listens_to_filters: []
-  #   allow_multiple_values: true
+    - name: Campaign Name
+      title: Campaign Name
+      type: field_filter
+      default_value:
+      model: ads
+      explore: campaign_performance_reports
+      field: campaigns.name
+      listens_to_filters: []
+      allow_multiple_values: true
+    - name: Date
+      title: Date
+      type: date_filter
+      default_value: 30 days
+#       model:
+#       explore:
+#       field:
+#       listens_to_filters: []
+      allow_multiple_values: true

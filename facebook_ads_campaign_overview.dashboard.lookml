@@ -543,12 +543,12 @@
     field: facebook_campaigns.name
     listens_to_filters: []
     allow_multiple_values: true
-  # - name: Insights Start Date
-  #   title: Insights Start Date
-  #   type: date_filter
-  #   default_value: ''
-  #   model:
-  #   explore:
-  #   field:
-  #   listens_to_filters: []
-  #   allow_multiple_values: true
+  - name: Insights Start Date
+    title: Insights Start Date
+    type: date_filter
+    default_value: ''
+#     model:
+#     explore:
+#     field:
+#     listens_to_filters: []
+    allow_multiple_values: true
