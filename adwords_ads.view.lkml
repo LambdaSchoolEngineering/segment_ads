@@ -1,5 +1,5 @@
 view: ads {
-  sql_table_name: segment.adwords.ads ;;
+  sql_table_name: segment.adwords6.ads ;;
 
   dimension: id {
     primary_key: yes

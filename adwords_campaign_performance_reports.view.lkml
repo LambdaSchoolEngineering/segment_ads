@@ -1,5 +1,5 @@
 view: campaign_performance_reports {
-  sql_table_name: segment.adwords.campaign_performance_reports ;;
+  sql_table_name: segment.adwords6.campaign_performance_reports ;;
 
   dimension: id {
     primary_key: yes
